@@ -2,7 +2,7 @@
 //function for the verification if the tab is opened(clicked) or not
 function selectGroupMenuItem(tabName){
     cy.contains('a',tabName).then(menu =>{
-        cy.wrap(menu).find('.expand-state g g').invoke('attr', 'data-name').then(attr =>{
+        cy.wrap(menu).find('.classes....').invoke('attr', 'data-name').then(attr =>{
             if(attr.includes('left')){
                 cy.wrap(menu).click()
             }
