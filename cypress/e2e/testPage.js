@@ -16,7 +16,7 @@ describe('Suite for assignments tests', () =>{
 
         cy.login('andrewscottt@gmail.com','Michael2012$')
         navigateTo.mediaLibraryPage()
-        onMediaLibraryPage.provideRightClickOn('cld-sample-4')
+        onMediaLibraryPage.provideRightClickOn('cld-sample-10')
         onMediaLibraryPage.clickListOption('Manage')
         onMediaLibraryPage.verifyText('cld-sample-4')
 
