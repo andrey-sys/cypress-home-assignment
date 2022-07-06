@@ -1,3 +1,4 @@
+import { mediaLibraryPage, onMediaLibraryPage } from "../support/pageObjects/mediaLibraryPage"
 import { navigateTo } from "../support/pageObjects/navigationPage"
 
 
@@ -15,7 +16,10 @@ describe('suite for assignment', () =>{
 
         cy.login('andrewscottt@gmail.com','Michael2012$')
         navigateTo.mediaLibraryPage()
-        //to be continue
+        onMediaLibraryPage.provideRightClickOn('cld-sample-3')
+        onMediaLibraryPage.clickListOption('Manage')
+        onMediaLibraryPage.verifyText('cld-sample-3')
+
 
     })
 
