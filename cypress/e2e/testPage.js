@@ -14,7 +14,7 @@ describe('Suite for assignments tests', () =>{
     //test: contains basic actions
     it('Test assignment', ()=>{
 
-        cy.login('andrewscottt@gmail.com','Michael2012$')
+        cy.login('andrewscottt@gmail.com','XXXXXXXX')
         navigateTo.mediaLibraryPage()
         onMediaLibraryPage.provideRightClickOn('cld-sample-10')
         onMediaLibraryPage.clickListOption('Manage')

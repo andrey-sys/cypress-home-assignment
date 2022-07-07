@@ -5,6 +5,7 @@ module.exports = defineConfig({
   viewportWidth: 1920,
 //report
   reporter: 'cypress-mochawesome-reporter',
+  autoOpen: true,
   code: true,
   video: false,
   charts: true,
